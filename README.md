@@ -38,7 +38,7 @@ Example:
 
 ## How it works
 
-The user requests Workers confirmation at the endpoint localhost:5000/opening_request
+The user requests Workers confirmation at the endpoint localhost:5000/open_request
 And get the following kind of answer:
 
       {
@@ -81,3 +81,6 @@ Users can request the PoW by calling the endpoint (/request_pow) sending a json 
 
 The first transaction is the user_transaction. The second one (worker_transaction) is responsible for the payment of the worker. 
 
+
+## Attention!!! 
+This version is still mere Proof of Concept. Use for micro-transactions only.
