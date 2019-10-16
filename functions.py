@@ -28,7 +28,7 @@ def block_create(block_type, account, representative, previous, link_as_account,
         return block
 
 
-#check if the sender account really has the required balance
+#check if the account has the balance
 def check_balance(address, balance):
     data = {
         "action": "account_balance",
@@ -55,7 +55,7 @@ def check_block(hash):
 
 
 
-#broadcast transactiodata = {n to network
+#broadcast transaction
 def broadcast(transaction):
     request = requests.post(node, json={"action": "process", "json_block": "true", "block": json.loads(transaction)})
     return json.loads(request.text)
