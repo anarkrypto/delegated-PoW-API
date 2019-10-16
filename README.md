@@ -82,5 +82,10 @@ Users can request the PoW by calling the endpoint (/request_pow) sending a json 
 The first transaction is the user_transaction. The second one (worker_transaction) is responsible for the payment of the worker. 
 
 
+PoW is currently done with nanolib as well as other block verification functions.
+Then PoW is resolved with the processor. The next release will include the option of using nano-node or Nano Worker Server, thus allowing you to calculate PoW with GPU.
+
+The next version will also allow the user to request PoW for multiple transactions at once. Reward block only needs to be 1, last in chain.
+
 ## Attention!!! 
 This version is still mere Proof of Concept. Use for micro-transactions only.
