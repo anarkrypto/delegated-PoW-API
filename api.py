@@ -8,9 +8,12 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/opening_request', methods=['GET', 'POST'])
+@app.route('/open_request', methods=['GET', 'POST'])
 def opening_request():
-    return worker_account
+    return {
+	"reward_address": worker_account,
+ 	"minimum_fee": minimum_fee,
+    }
 
 
 @app.route('/request_pow', methods=['GET', 'POST'])
