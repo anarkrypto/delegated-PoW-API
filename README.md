@@ -9,29 +9,31 @@ The only way a user can have their transaction completed by Worker is to attach 
 
 ## Configuring
 First you will need to have a node installed and synchronized.
-Edit the worker_config.json file. Enter:
-	-Your Nano account where the rewards will be deposited. It must have a small amount of Nano as it will be used to register your network node within a transaction.
-	-The private key of this account (attention, do not confuse with the master seed). Required to sign the decentralized registration transaction. Don't worry, the subscription is made directly from your computer and no one else will have access to it.
-	-Your preferred representative
-	-The minimum fee you prefer for each job, represented in mNano. Suggestion: 0.0001
-	-Your node address with RPC port. Probably 127.0.0.1:7076
-	-Your worker address (can be the same as node).
-	-Active difficulty can be ignored for now, I recommend you leaving false
-	-max multiplier will be the maximum PoW difficulty your worker will accept when using active difficulty in dynamic PoW 
-	-API running Port. 7090 by default.
-Example:
+- Edit the worker_config.json file. Enter:
+	- Your Nano account where the rewards will be deposited. It must have a small amount of Nano as it will be used to register your network node within a transaction.
+	- The private key of this account (attention, do not confuse with the master seed). Required to sign the decentralized registration transaction. Don't worry, the subscription is made directly from your computer and no one else will have access to it.
+	- Your preferred representative
+	- The minimum fee you prefer for each job, represented in mNano. Suggestion: 0.0001
+	- Your node address with RPC port. Probably 127.0.0.1:7076
+	- Your worker address (can be the same as node).
+	- Active difficulty can be ignored for now, I recommend you leaving false
+	- max multiplier will be the maximum PoW difficulty your worker will accept when using active difficulty in dynamic PoW 
+	- API running Port. 7090 by default.
+	Example:
+
+<p></p>
 
 
-    {	
+    {
     	"reward_account": "nano_3k8it4efod5hw194axu1m483qee7pryfrfung9pyr8x9pysfpz1bothqmo1y",
-	"private_key": "79E937E6A24B2ABC7DD3894F03BF62303BE8CBA936CBEC7CA3BACEC763AF3BB2",
-	"representative": "nano_3x7cjioqahgs5ppheys6prpqtb4rdknked83chf97bot1unrbdkaux37t31b",
- 	"fee": 0.0001,
-	"node": "127.0.0.1:7076",
-	"worker": "127.0.0.1:7076",
-	"use_active_difficulty": false,
-	"max_multiplier": 10.0,
-	"port": 7090
+		"private_key": "79E937E6A24B2ABC7DD3894F03BF62303BE8CBA936CBEC7CA3BACEC763AF3BB2",
+		"representative": "nano_3x7cjioqahgs5ppheys6prpqtb4rdknked83chf97bot1unrbdkaux37t31b",
+ 		"fee": 0.0001,
+		"node": "127.0.0.1:7076",
+		"worker": "127.0.0.1:7076",
+		"use_active_difficulty": false,
+		"max_multiplier": 10.0,
+		"port": 7090
     }
 
 
@@ -48,7 +50,7 @@ The user requests Workers confirmation at the endpoint worker_ip_address:7090/op
 And get the following kind of answer:
 
       {				 
-      		"fee": 100000000000000004764729344,
+      		"fee": 100000000000000000000000000,
       		"max_multiplier":10.0,
       		"min_multiplier":1.0,
       		"reward_account":"nano_3k8it4efod5hw194axu1m483qee7pryfrfung9pyr8x9pysfpz1bothqmo1y",
