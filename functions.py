@@ -123,7 +123,6 @@ def receive(account, private_key, representative, amount, link, difficulty):
      )
      block.work = solve_work(frontier(account), difficulty)
      block.sign(private_key)
-     print (block.json())
      r = broadcast(block.json())
      return r
 
