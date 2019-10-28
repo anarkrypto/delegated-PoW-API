@@ -101,7 +101,7 @@ This API automatically saves the worker IP (ipv4 or ipv6) in a Nano transaction,
 That's why you need to put your account private key in worker_config.json and have a small balance there.
 
 
-Customers of users interested in hiring workers read the transaction history of the registration account. There they find the workers account. And in the workers account they will find their IP addresses, through which P2P user / worker connections are made. The interesting thing about this system is that besides saving bandwidth and avoiding certain attacks, it avoids the need for main peers and also allows us to associate and recognize worker accounts.
+Customers of users interested in hiring workers read the transaction history of the registration account. There they find the workers account. And in the workers account they will find their IP addresses, through which P2P user<->worker connections are made. The interesting thing about this system is that besides saving bandwidth and avoiding certain attacks, it avoids the need for main peers and also allows us to associate and recognize worker accounts.
 
 
 ## GPU
