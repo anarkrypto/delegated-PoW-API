@@ -1,5 +1,5 @@
 {
-	"general_account": "nano_1de1egated1proof1ofwork1themain1registration1accountp46rpyr6",
+	"registration_account": "nano_1de1egated1proof1ofwork1themain1registration1accountp46rpyr6",
   "sign_new_ip_code": 1330480815,
   "sign_new_account_code": 133048002828,
   "get_ip": "https://api.ipify.org"

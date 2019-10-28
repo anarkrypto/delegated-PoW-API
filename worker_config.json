@@ -1,11 +1,11 @@
 {
-	"reward_account": "nano_3k8it4efod5hw194axu1m483qee7pryfrfung9pyr8x9pysfpz1bothqmo1y",
-	"private_key": "79E937E6A24B2ABC7DD3894F03BF62303BE8CBA936CBEC7CA3BACEC763AF3BB2",
-	"representative": "nano_3x7cjioqahgs5ppheys6prpqtb4rdknked83chf97bot1unrbdkaux37t31b",
- 	"fee": 0.0001,
-	"node": "127.0.0.1:7076",
-	"worker": "127.0.0.1:7076",
-	"use_active_difficulty": false,
-	"max_multiplier": 10.0,
-	"port": 7090
+ "reward_account": "nano_3k8it4efod5hw194axu1m483qee7pryfrfung9pyr8x9pysfpz1bothqmo1y",
+ "private_key": "79E937E6A24B2ABC7DD3894F03BF62303BE8CBA936CBEC7CA3BACEC763AF3BB2",
+ "representative": "nano_3x7cjioqahgs5ppheys6prpqtb4rdknked83chf97bot1unrbdkaux37t31b",
+ "fee": 0.001,
+ "node": "127.0.0.1:7076",
+ "worker": "127.0.0.1:7076",
+ "use_active_difficulty": false,
+ "max_multiplier": 10.0,
+ "port": 7090
 }
