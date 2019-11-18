@@ -95,6 +95,11 @@ Users can request the PoW by calling the endpoint (/request_pow) sending a json 
 
 The first transaction is the user_transaction. The second one (worker_transaction) is responsible for the payment of the worker.
 
+
+If all goes well, the output by the worker API will look like this:
+
+<img src="https://pbs.twimg.com/media/EH4rnUFW4AAncYq?format=jpg&name=medium" width="500px" />
+
 ## Decentralized Registration
 Instead of a Nano-like peering system or protocols like torrent, this project introduced a new way for peers to exchange their IP addresses.
 This API automatically saves the worker IP (ipv4 or ipv6) in a Nano transaction, after encoding to nano account format, and associates it with the default register account (1de1egated1proof1ofwork1themain1registration1accountp46rpyr6) with other transaction.
