@@ -8,7 +8,7 @@ This project has the ability to make Nano instantaneous for any type of low comp
 The only way a user can have their transaction completed by Worker is to attach an extra transaction block as a reward after their transactions. The only way for a Worker to receive his reward is by completing PoW and broadcasting the user's transaction first to be able to validate his reward block. Read more <a href="https://medium.com/@kaiquenunes/delegated-proof-of-work-d566870924d9">in this Medium article</a>
 
 ## Configuring
-First you will need to have a node installed and synchronized.
+First you will need to have a <strong>Nano node >= v.19.0</strong> installed and synchronized.
 - Edit the worker_config.json file. Enter:
 	- Your Nano Account where the rewards will be deposited. It must have a small amount of Nano as it will be used to register your network node within a transaction.
 	- The Private Key of this account (attention, do not confuse with the master seed). Required to sign the decentralized registration transaction. Don't worry, the registration transaction signature is made directly from your computer and no one else will have access to your private keys.
