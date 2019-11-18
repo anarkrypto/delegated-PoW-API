@@ -13,11 +13,11 @@ First you will need to have a <strong>Nano node >= v.19.0</strong> installed and
 	- Your Nano Account where the rewards will be deposited. It must have a small amount of Nano as it will be used to register your network node within a transaction.
 	- The Private Key of this account (attention, do not confuse with the master seed). Required to sign the decentralized registration transaction. Don't worry, the registration transaction signature is made directly from your computer and no one else will have access to your private keys.
 	- Your preferred Representative
-	- The Minimum Fee you prefer for each job, represented in mNano. Current suggestion: 0.001
-	- Your Node address with RPC port. Probably 127.0.0.1:7076
+	- The Minimum Fee you prefer for each job, represented in mNano. Current suggestion: 0.0001
+	- Your Node address with RPC port. Probably <strong>127.0.0.1:7076</strong> or <strong>[::1]:7076</strong>
 	- Your Worker Node Address (can be the same as node).
 	- Active Difficulty can be ignored for now, I recommend you leaving false
-	- Max Mltiplier will be the maximum PoW difficulty your worker will accept when using active difficulty in dynamic PoW
+	- Max Multiplier will be the maximum PoW difficulty your worker will accept when using active difficulty in dynamic PoW
 	- API running Port. 7090 by default.
 	Example:
 
