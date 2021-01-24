@@ -1,10 +1,10 @@
 # Delegated Proof of Work - API
-Worker API for P2P delegated Proof of Work, Nano cryptocurrency
+Outdated worker API for P2P delegated Proof of Work, Nano cryptocurrency
 
 # Notice!
 This project was rebranded to P2PoW and moved to the following directory:  https://github.com/anarkrypto/P2PoW
 
-This rep. will no longer receive updates
+This repository will no longer receive updates
 
 
 <br>
